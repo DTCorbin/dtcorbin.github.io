@@ -113,40 +113,49 @@ projects.addEventListener('click', () => {
             project3.addEventListener('click', () =>{
                 textContent.innerHTML = 'Skills:<br>\
                 Python | SQL | MySQL| encryption | Hashing<br><br>\
-                I had a few goals to accomplish by creating this project. First, I wanted to get more familiar with Python as this was the first project I made outside of class. My second goal was to learn more about how password managers work behind the scenes. Lastly and possibly most importantly, I saw how the big password managers all have been hacked at some point and figured one of the best ways to protect against that is to have a completely offline password manager.\
-                I wrote the software in Python. I also used a local instance of MYSQL Server as a database to store my credentials. It may be off-putting to some but for a user interface, I went with a command line interface. For encryption I used the Cryptography library that can be added for Python. I chose to use their Fernet algorithm because of its ease of implementation and security because under the hood it uses AES 128 encryption. AES is the gold standard and is used in all industries. Another security feature I implemented was sanitized input where the user will be able to type in requests. This was achieved by passing the values in after the SQL statement has been processed, also called parameterized inputs.\
-	I also created a login feature which serves a dual purpose, Initial security and the name of the database itself. The login feature stores a salted hash of the password to prevent password attacks, has a minimum password length of 8 characters, and a maximum of 3 attempts. The username is hashed and used as the title of the database. Here you can see the login process and what the database looks like.<br><img src="./Password Manager/Login and DB Name.png"><br>\
-You can also generate secure passwords when adding entries into the database.<br><img src="./Password Manager/Adding an entry.png"><br>\
+                I had a few goals to accomplish by creating this project. First, I wanted to get more familiar with Python as this was the first project\
+					I made outside of class. My second goal was to learn more about how password managers work behind the scenes. Lastly and possibly most importantly,\
+					I saw how the big password managers all have been hacked at some point and figured one of the best ways to protect against that is to have a completely offline password manager.\
+                I wrote the software in Python. I also used a local instance of MYSQL Server as a database to store my credentials. It may be off-putting to some but for a user interface,\
+					I went with a command line interface. For encryption I used the Cryptography library that can be added for Python. I chose to use their Fernet algorithm because of its ease of\
+					implementation and security because under the hood it uses AES 128 encryption. AES is the gold standard and is used in all industries. Another security feature I implemented was\
+					sanitized input where the user will be able to type in requests. This was achieved by passing the values in after the SQL statement has been processed, also called parameterized inputs.\
+				I also created a login feature which serves a dual purpose, Initial security and the name of the database itself. The login feature stores a salted hash of the password to prevent password attacks,\
+					has a minimum password length of 8 characters, and a maximum of 3 attempts. The username is hashed and used as the title of the database. Here you can see the login process and what the database looks like.\
+					<br><img src="./Password Manager/Login and DB Name.png"><br>\
+				You can also generate secure passwords when adding entries into the database.<br><img src="./Password Manager/Adding an entry.png"><br>\
                 You can view a list of the entries that you have entered.<br><img src="./Password Manager/list.png"><br>\
                 This is what the entries look like in the database.<br><img src="./Password Manager/Entry in DB.png"><br>\
                 When you retrieve the entries, they are formatted as such and can be pasted where they need to be used.<br><img src="./Password Manager/Credential retrieval.png"><br>\
                 Here is the help page for the password manager:<br><img src="./Password Manager/help.png"><br>\
                 Improvements to be made:\
-	I have written out an implementation for logging of all key events. It creates a log object and the different events modify this object accordingly before being written to the log file. It includes a timestamp, a severity level, the user performing the action, and a description of the action that was performed, such as reading the credentials for a certain entry. \
-	I also wrote out an implementation for securing the key by calling on the win32 api to encrypt the key using a password that isn’t stored anywhere in any format on the system and Windows EFS.\
-	The only thing left to do is to transfer the code from paper to the actual source code. You can view the code if you <a href="https://github.com/DTCorbin/LocalPasswordManager">CLICK HERE</a>\
-';
+				I have written out an implementation for logging of all key events. It creates a log object and the different events modify this object accordingly before being written to the log file. It includes a timestamp, a severity level,\
+					the user performing the action, and a description of the action that was performed, such as reading the credentials for a certain entry. \
+				I also wrote out an implementation for securing the key by calling on the win32 api to encrypt the key using a password that isn’t stored anywhere in any format on the system and Windows EFS.\
+				The only thing left to do is to transfer the code from paper to the actual source code. You can view the code if you <a href="https://github.com/DTCorbin/LocalPasswordManager">CLICK HERE</a>\
+				';
             })
             project4.addEventListener('click', () =>{
                 textContent.innerHTML = 'Skills:<br>\
                 Windows Server | Active Directory | Virtualization<br><br>\
                 Lab consisted of three virtual machines. One was a Windows \
-server that promoted to a Domain controller. The second was a \
-“technician” machine that had RSAT and Team-Viewer installed. \
-The last one was an end-user’s machine. It can be used to \
-practice  the resolution of common administrative tasks and tickets. On the host \
-machine(Debian 13) wrote a bash script to unload kernel modules \
-in order to run VirtualBox. ';
+				server that promoted to a Domain controller. The second was a \
+				“technician” machine that had RSAT and Team-Viewer installed. \
+				The last one was an end-user’s machine. It can be used to \
+				practice  the resolution of common administrative tasks and tickets. On the host \
+				machine(Debian 13) wrote a bash script to unload kernel modules \
+				in order to run VirtualBox. ';
             })
             project5.addEventListener('click', () =>{
                 textContent.innerHTML = 'Skills:<br>\
                 Linux | System administration | Bash Scripting<br><br>\
                 Provisioned two virtual machines with Ubuntu Server 26.04 LTS. \
-The first server was provisioned with an Apache2 web server and \
-used to learn how to configure it. The second server is used to \
-practice general administration tasks such as adding users, \
-group assignment, permissions, etc. I also developed a bash script that can be used to bulk \
-stage user accounts with proper security procedures like an invalid shell and a one time password.';
+				The first server was provisioned with an Apache2 web server and \
+				used to learn how to configure it. The second server is used to \
+				practice general administration tasks such as adding users, \
+				group assignment, permissions, etc. I also developed a bash script that can be used to bulk \
+				stage user accounts with proper security procedures like an invalid shell and a one time password. It can\
+					be viewed under the user staging script tab.';
             })
             }
 }, true);
