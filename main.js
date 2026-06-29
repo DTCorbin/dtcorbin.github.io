@@ -21,25 +21,21 @@ about.addEventListener('click', () => {
                 <h3>about</h3>\
                 <button class="close">close</button>\
                 <div style="width: 90%; height: 90%; overflow-y: auto;" class="content">\
-                <p> Hello, I am an aspiring IT professional who is very driven to make people\'s\
-            computing experience the best it can be. I completed relevent schooling at\
-            two very distinct times in my life. I first went and got a degree in electronics\
-            technology and had planned on going into computer engineering, but I had a burning dream that needed to be realized\
-            before it was too late. It is a great pride of mine to be able to make an impact\
-            on society, and I knew there was one way that I wanted to do that, change the skyline\
-            of our great city, Pittsburgh. So, that is exactly what I set out to do. Modern buildings\
-            are made up of two main materials, steel and concrete. If you want to make a building \
-            tall enough to change a skyline you can\'t do it without steel so I knew what I had to do.\
-            I took a certificate course in welding at PTC and got a job at the largest structural\
-            fabrication shop in the area. While I was there, I got to see many of the newest additions\
-            to our city and others come through our doors and played a big part in them becoming reality. Once\
-            I felt that I had contributed to a satisfactory degree and decided it was time to have a \
-            career that challenges my brain and where I can help the most people. While welding, I\
-            rediscovered my passion for cybersecurity that I had all through middle and high school.\
-             When the time came, I embarked on gaining a degree in CIS: Networking and Cybersecurity.\
-              On top of classes I would also complete extra projects in my spare time and that brings me great joy. \
-              I have really honed in on networking, system administration, and DFIR.\
-            I was able to get a 4.0 every semester during that degree and am looking to gain employment in any area I can.</p>\
+                <p> I am a highly motivated and results-oriented IT professional with a unique and diverse background,\
+				driven by a deep commitment to optimizing user computing experiences and enhancing digital security.\
+				My career trajectory reflects a blend of hands-on technical skill and a passion for impactful contributions.</p>\
+				<p>My foundational journey into technology began with a degree in Electronics Technology,\
+				initially intending to pursue Computer Engineering. However, a strong desire to contribute tangibly to my community led me to a\
+				fulfilling detour in structural fabrication. I pursued a welding certification and played a significant role in creating key structural\
+				components for many of Pittsburgh\'s prominent new developments. This experience honed my problem-solving abilities, precision, and understanding\
+				of complex project execution</p>\
+				<p>During this period, I rediscovered my profound interest in cybersecurity, a passion that dates back to my earlier education.\
+				This rekindled enthusiasm prompted my return to higher education, where I successfully earned a degree in CIS: Networking and Cybersecurity,\
+				achieving a perfect 4.0 GPA each semester and excelled in my desktop support internship. My academic focus, complemented by extensive self-directed projects,\
+				has equipped me with robust expertise in networking, system administration, and defensive security.</p>\
+				<p>I am now eager to leverage my analytical skills, dedication to continuous learning, and diverse professional background to contribute to an organization where\
+				I can apply my technical knowledge and help shape secure and efficient IT environments. I am actively seeking opportunities to contribute my skills\
+				and grow within a challenging and collaborative setting.</p>\
             <h4>Certifications</h4>\
             <p>Network+</p>\
             <p>Security Pro</p>\
