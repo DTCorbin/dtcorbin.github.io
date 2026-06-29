@@ -99,13 +99,13 @@ projects.addEventListener('click', () => {
                 textContent.innerHTML = 'Skills:<br>C | Cybersecurity| TCP/IP | Networking\
                 <br><br>Built a honeypot in C using Posix sockets to handle network traffic with\
                  two modes. The first mode is an HTTP honeypot that is advertised as an\
-                  Apache web serverto network scan with its banner.<br><img src="./honeypot/nmap scan.jpg"><br>\
+                  Apache web serverto network scan with its banner.<br><img src="./Honeypot/nmap scan.jpg"><br>\
                    The second mode allows\
                  you to advertise a custom service on any port number. You set the banner string that \
                  will be sent out. It logs all events including when the honeypot starts up,\
                   when it stops, intrusion attempts and their contents.<br>\
-                  <img src="./honeypot/Log File.jpg"><br> I have left room to add on in the future \
-                   as shown here:<br> <img src="./honeypot/Preconfigured options.jpg">\
+                  <img src="./Honeypot/Log File.jpg"><br> I have left room to add on in the future \
+                   as shown here:<br> <img src="./Honeypot/Preconfigured options.jpg">\
                    <br> but this is a good proof of concept and a great\
                   experience to learn how networking works at a lower level. To see the code, you\
                   can <a href="https://github.com/DTCorbin/Honeypot/blob/main/honeypot.c">CLICK HERE</a>.';
